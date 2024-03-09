@@ -1,0 +1,20 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.game{
+  display: flex;
+  align-items: center;
+}
+
+.game-info{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 680px) {
+  .game-info{
+    display: none;
+  }
+}
